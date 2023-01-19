@@ -3,3 +3,4 @@ export * from "./circleWidget";
 export * from "./barWidget";
 export * from "./circleUI";
 export * from "./rangeSlider";
+export * from "./barUI";
