@@ -1,4 +1,4 @@
-import { WidgetBox } from "../hoc";
+import { WidgetBox } from "../hoc/widgetBox";
 import { BarUI } from "./barUI";
 import { useState } from "react";
 
