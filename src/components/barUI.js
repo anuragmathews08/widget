@@ -4,7 +4,7 @@ export const BarUI = ({ handleValue, selected }) => {
   };
 
   return (
-    <div className="mt-4 flex flex-col items-center">
+    <div className="mt-4 flex flex-col items-center" aria-label="range-bars">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="278"
@@ -12,6 +12,7 @@ export const BarUI = ({ handleValue, selected }) => {
         viewBox="0 0 378 56"
         className="hover:cursor-pointer relative max-w-full"
         onClick={() => handleValueSelect(5)}
+        data-testid="top-bar"
       >
         <g
           id="Rectangle_1"
@@ -97,6 +98,7 @@ export const BarUI = ({ handleValue, selected }) => {
         viewBox="0 0 150 150"
         className="hover:cursor-pointer max-w-[50%]"
         onClick={() => handleValueSelect(1)}
+        data-testid="bottom-bar"
       >
         <g
           id="Polygon_1"

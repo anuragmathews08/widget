@@ -7,7 +7,7 @@ export const BarWidget = () => {
 
   return (
     <WidgetBox>
-      <h3 className="text-white text-xl font-medium">
+      <h3 className="text-white text-xl font-medium" aria-label="range-value">
         {rangeValue >= 1 && rangeValue < 3 ? (
           <>Low</>
         ) : rangeValue >= 3 && rangeValue < 5 ? (
