@@ -1,11 +1,4 @@
-import {
-  screen,
-  render,
-  cleanup,
-  waitFor,
-  fireEvent,
-} from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { screen, render, cleanup, fireEvent } from "@testing-library/react";
 import { CircleWidget } from "./circleWidget";
 
 describe("<CircleWidget /> component Test", () => {
