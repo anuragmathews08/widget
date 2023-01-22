@@ -58,14 +58,16 @@ It can be considered the root component that renders both widgets inside routes 
 ## Test cases
 
 **Bar Widget**
-TC-01: It should display value and bars on the screen
-TC-02: It should display the default value as medium
-TC-03: It should display range value as High for top bar click
-TC-04: It should display range value as Low for bottom most bar click
+
+- TC-01: It should display value and bars on the screen
+- TC-02: It should display the default value as medium
+- TC-03: It should display range value as High for top bar click
+- TC-04: It should display range value as Low for bottom most bar click
 
 **Circle Widget**
-TC-01: It should display range number on screen
-TC-02: It should display 5 as default range
-TC-03: It should change value on slider change
+
+- TC-01: It should display range number on screen
+- TC-02: It should display 5 as default range
+- TC-03: It should change value on slider change
 
 **_The tests can be found in the `src/components` directory with the same name as the widget component name._**
